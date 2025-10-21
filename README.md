@@ -1,20 +1,30 @@
-#Pancake  Recipe Page 
 
-This is ** Techtonica Recipe Page Project**.
-It's  a simple webpage showing how to make my favorite pancakes, using **HTML**CSS *
 
-## project Goals 
--Practice basic HTML struction (headings ,lists,imges,links )
--Add styling with css 
--Learn how to organize a small web  Projucts
+# Pancake Recipe Page
 
-## Techologies Used 
--HTML
--CSS
+This is a **Techtonica Recipe Page Project**.
+It’s a simple webpage showing how to make my favorite pancakes, using **HTML** and **CSS**.
 
-## How to view 
-1. Open the `index.html`file in your browser .
-2. You'll see the pancake  recipe with ingredients and instructions.
+---
 
-## Author 
-Nasistu Wodajo
+## Project Goals
+- Practice basic HTML structure (headings, lists, images, links)
+- Add styling with CSS
+- Learn how to organize a small web project
+
+---
+
+## 🧩 Technologies Used
+- HTML
+- CSS
+
+---
+
+## 💻 How to View
+1. Open the `index.html` file in your browser.
+2. You’ll see the pancake recipe with ingredients and instructions.
+
+---
+
+## 👩🏽‍💻 Author
+**Nasistu Wodajo**
