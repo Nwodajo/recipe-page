@@ -1,27 +1,97 @@
+/* General Page Styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fffaf0;
-  color: #333;
-  text-align: #333;
-  margin: 20px;
+font-family: 'Poppins', sans-serif;
+background-color: #fff7ee; /* light injera tone */
+color: #333;
+margin: 0;
+padding: 20px;
+text-align: center;
 }
 
-h1 {
-  color: #ff9900;
-  font-size: 2.5em;
-  text-shadow: 1px 1px 3px #666;
-}
-ul, ol {
-  text-align: left;
-  display: inline-block;
-  padding: 15;
-  background-color: #f0f8ff;
-  border-radius: 10px;
+/* Container Boxes */
+.top, .left, .right {
+border-radius: 12px;
+padding: 20px;
+margin: 15px auto;
+width: 80%;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-img {
-  width: 300px;
-  border-radius: 8px;
+/* Top Section (Title + Description) */
+.top {
+background-color: #f8d7ff; /* purple/pink tone */
+}
 
-  margin-bottom: 10px 0;
+.top h1 {
+font-family: 'Monoton', cursive;
+color: #b12704; /* berbere red */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+font-size: 3rem;
+}
+
+.description {
+font-size: 1.05rem;
+line-height: 1.6;
+width: 600px;
+margin: 10px auto;
+}
+
+/* Left Section (Image + Ingredients) */
+.left {
+background-color: #c9f7b8; /* light green tone */
+display: inline-block;
+vertical-align: top;
+width: 45%;
+}
+
+/* Image */
+.image img {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ingredients */
+.ingredients ul {
+text-align: left;
+width: 90%;
+margin: 10px auto;
+line-height: 1.6;
+}
+
+/* Right Section (Instructions + Links) */
+.right {
+background-color: #fce5b3; /* soft orange tone */
+display: inline-block;
+vertical-align: top;
+width: 45%;
+margin-left: 20px;
+}
+
+.instructions ol {
+text-align: left;
+width: 90%;
+margin: 10px auto;
+line-height: 1.6;
+}
+
+/* External Links */
+.external-links {
+margin-top: 20px;
+}
+
+.external-links a {
+color: #b12704;
+text-decoration: none;
+}
+
+.external-links a:hover {
+text-decoration: underline;
+}
+
+/* Footer */
+footer {
+margin-top: 25px;
+font-size: 0.95rem;
+color: #777;
 }
