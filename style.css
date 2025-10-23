@@ -1,134 +1,97 @@
-/* General Page Styling */
-p {
-  color: blue;
-}
+/* ===== General Page Setup ===== */
 body {
 font-family: 'Poppins', sans-serif;
-background-color: #fff7ee; /* light injera tone */
+background-color: #fff8f0;
 color: #333;
 margin: 0;
 padding: 20px;
-text-align: center;
+line-height: 1.6;
 }
 
-/* Container Boxes */
-.top, .left, .right {
-border-radius: 12px;
-padding: 20px;
-margin: 15px auto;
-width: 80%;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Top Section (Title + Description) */
+/* ===== Top Section: Title and Description ===== */
 .top {
-background-color: #f8d7ff; /* purple/pink tone */
+text-align: center;
+margin-bottom: 40px;
 }
 
-.top h1 {
-font-family: 'Monoton', cursive;
-color: #b12704; /* berbere red */
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-font-size: 3rem;
+h1 {
+color: #b22222;
+font-size: 2.5em;
+margin-bottom: 10px;
 }
 
 .description {
-font-size: 1.05rem;
-line-height: 1.6;
 width: 600px;
-margin: 10px auto;
+margin: 0 auto;
+font-size: 18px;
+color: #444;
+line-height: 1.6;
 }
 
-/* Left Section (Image + Ingredients) */
+/* ===== Left and Right Layout ===== */
 .left {
-background-color: #c9f7b8; /* light green tone */
-display: inline-block;
-vertical-align: top;
-width: 45%;
+width: 600px;
+float: left;
+margin-right: 30px; /* space between the left and right sides */
+background-color: #ffffff;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Image */
+.right {
+width: 600px;
+float: right;
+background-color: #ffffff;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Image Styling ===== */
 .image img {
 width: 100%;
 border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+margin-bottom: 20px;
 }
 
-/* Ingredients */
-.ingredients ul {
-text-align: left;
-width: 90%;
-margin: 10px auto;
-line-height: 1.6;
+/* ===== Headings ===== */
+h2, h3 {
+color: #8b0000;
+border-bottom: 2px solid #e8b860;
+padding-bottom: 5px;
 }
 
-/* Right Section (Instructions + Links) */
-.right {
-background-color: #fce5b3; /* soft orange tone */
-display: inline-block;
-vertical-align: top;
-width: 45%;
-margin-left: 20px;
+/* ===== Ingredients List ===== */
+ul {
+list-style-type: square;
+padding-left: 20px;
 }
 
-.instructions ol {
-text-align: left;
-width: 90%;
-margin: 10px auto;
-line-height: 1.6;
+/* ===== Instructions List ===== */
+ol {
+padding-left: 20px;
 }
 
-/* External Links */
-.external-links {
-margin-top: 20px;
-}
-
+/* ===== External Links ===== */
 .external-links a {
-color: #b12704;
+color: #b22222;
 text-decoration: none;
 }
 
 .external-links a:hover {
 text-decoration: underline;
 }
-/* Improve layout alignment */
-.left, .right {
-display: inline-block;
-vertical-align: top;
-width: 45%;
-box-sizing: border-box;
-}
 
-/* Add spacing between left and right sections */
-.right {
-margin-left: 20px;
-}
-
-/* Style the image nicely */
-.image img {
-width: 100%;
-border-radius: 8px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Make your ingredients and instructions easier to read */
-ul, ol {
-text-align: left;
-line-height: 1.7;
-margin-left: 40px;
-}
-
-/* Give footer some top space */
+/* ===== Footer ===== */
 footer {
-margin-top: 40px;
-font-style: italic;
-color: #777;
-}
-
-
-/* Footer */
-footer {
-margin-top: 25px;
-font-size: 0.95rem;
-color: #777;
+clear: both;
+text-align: center;
+margin-top: 50px;
+font-size: 16px;
+color: #555;
+padding: 20px 0;
+background-color: #faf3e0;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
