@@ -82,6 +82,9 @@ text-decoration: none;
 .external-links a:hover {
 text-decoration: underline;
 }
+P{
+    line-height: 1.6;
+}
 
 /* ===== Footer ===== */
 footer {
@@ -95,3 +98,4 @@ background-color: #faf3e0;
 border-radius: 10px;
 box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+/* Added new footer color for testing */
