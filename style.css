@@ -1,4 +1,7 @@
 /* General Page Styling */
+p {
+  color: blue;
+}
 body {
 font-family: 'Poppins', sans-serif;
 background-color: #fff7ee; /* light injera tone */
@@ -88,6 +91,40 @@ text-decoration: none;
 .external-links a:hover {
 text-decoration: underline;
 }
+/* Improve layout alignment */
+.left, .right {
+display: inline-block;
+vertical-align: top;
+width: 45%;
+box-sizing: border-box;
+}
+
+/* Add spacing between left and right sections */
+.right {
+margin-left: 20px;
+}
+
+/* Style the image nicely */
+.image img {
+width: 100%;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Make your ingredients and instructions easier to read */
+ul, ol {
+text-align: left;
+line-height: 1.7;
+margin-left: 40px;
+}
+
+/* Give footer some top space */
+footer {
+margin-top: 40px;
+font-style: italic;
+color: #777;
+}
+
 
 /* Footer */
 footer {
