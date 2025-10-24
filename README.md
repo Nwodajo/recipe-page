@@ -1,31 +1,23 @@
 
+#  Doro Wat Recipe Page
 
-# Doro Wat Recipe Page
+This is my Phase 3 project for Techtonica.
+I built a **responsive recipe webpage** using **HTML, CSS, and the Bootstrap framework**.
+The page features:
+- A navigation bar
+- Responsive grid layout for ingredients and instructions
+- A footer with my name
+- Clean and modern design for all screen sizes
 
-This is a **Techtonica Recipe Page Project**.
-It’s a simple webpage showing how to make Doro Wat Etiopian Food, using **HTML** and **CSS**.
+### Tools Used
+- HTML5
+- CSS3
+- Bootstrap 5
 
----
+### Author
+### 🌐 Live Demo
 
-## Project Goals
-- Practice basic HTML structure (headings, lists, images, links)
-- Add styling with CSS(color,fonts ,layout)
-- Learn how to organize a small web project
-- Use  Git and GitHub to commit  and push  changes 
----
+You can view my Recipe Page live here:  
 
-##  Technologies Used
-- HTML
-- CSS
--Google Fonts (Monoton & Poppins)
----
-
-##  How to View
-1. Open the `index.html` file in your browser.
-2. You’ll see the pancake recipe with ingredients and instructions.
-3. you 'll see the **Doro Wat Recipe**with ingredients, instruction,and styling.
-
----
-
-## 👩🏽‍💻 Author
-**Nasistu Wodajo**
+👉 [View Project on GitHub link to RWADME.md]
+**Nasistu Wodajo** | Techtonica 2025 Cohort
