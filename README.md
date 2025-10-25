@@ -1,23 +1,6 @@
 
-#  Doro Wat Recipe Page
+# Doro Wat Recipe Page ###  Live Demo You can view my Recipe Page live here: 👉 [https://nwodajo.github.io/recipe-page/](https://nwodajo.github.io/recipe-page/) --- ###  Project Overview This project is part of the **Techtonica 2025 Cohort**. It demonstrates how to use **HTML, CSS, and Bootstrap 5.3.8** to build a responsive recipe webpage layout. The page features sections for ingredients, instructions, and external recipe links — all styled with Bootstrap. --- ###  Technologies Used - HTML5 - CSS3 - Bootstrap 5.3.8 - GitHub Pages --- ###  Author **Created by:** Nasistu Wodajo  _Techtonica 2025 Cohort_
+# 🍲 Doro Wat Recipe Page
 
-This is my Phase 3 project for Techtonica.
-I built a **responsive recipe webpage** using **HTML, CSS, and the Bootstrap framework**.
-The page features:
-- A navigation bar
-- Responsive grid layout for ingredients and instructions
-- A footer with my name
-- Clean and modern design for all screen sizes
+![Doro Wat served with injera](./doro-wat.jpg)
 
-### Tools Used
-- HTML5
-- CSS3
-- Bootstrap 5
-
-### Author
-### 🌐 Live Demo
-
-You can view my Recipe Page live here:  
-
-👉 [View Project on GitHub link to RWADME.md]
-**Nasistu Wodajo** | Techtonica 2025 Cohort
