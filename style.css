@@ -15,6 +15,7 @@ background-color: #f8f9fa;
 font-family: 'Monoton', cursive;
 color: #b91c1c !important; /* Ethiopian red theme */
 }
+
 .navbar-nav .nav-link {
 font-weight: 500;
 color: #333;
@@ -26,16 +27,19 @@ color: #b91c1c;
 /* ======= Recipe Section ======= */
 h1, h2 {
 color: #b91c1c; /* Deep red heading */
+
 font-weight: 600;
 }
 .description {
 font-size: 1.1rem;
 margin-bottom: 20px;
+
 }
 .container{
     border: 2px solid #ccc;
     border-radius: 8px;
     padding: 20px;
+
 }
 /* ======= Images ======= */
 .image img {
@@ -51,6 +55,10 @@ font-size: 1rem;
 }
 figure {
     margin-left: 20px;
+}
+#ingrdients ul{
+    list-style-type: square;
+    padding-left: 30px;
 }
 /* ======= Footer ======= */
 footer {
