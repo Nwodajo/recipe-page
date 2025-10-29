@@ -3,4 +3,8 @@
 # 🍲 Doro Wat Recipe Page
 
 ![Doro Wat served with injera](./doro-wat.jpg)
+## JavaScript Features 
+- Added new ingredent automatically using DOM.
+- Added click-to-strike feature for list items.
+-Added button to change the recipe title color.
 
