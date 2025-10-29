@@ -18,3 +18,10 @@ items.forEach((item) => {
     });
 
 });
+// Change the Recipe title color
+const colorButton = document.querySelector('#color-btn');
+const recipeTitle = document.querySelector('#recipe-title');
+
+colorButton.addEventListener('click',()=>{
+    recipeTitle.computedStyleMap.color ='orange';
+});

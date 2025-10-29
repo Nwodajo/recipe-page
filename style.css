@@ -75,6 +75,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 .checked {
     text-decoration: gray;
+    color: green;
 }
 a:hover {
     color: #d97706;
