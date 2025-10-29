@@ -79,6 +79,9 @@ box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 a:hover {
     color: #d97706;
+    background-color: #ffa500;/* orange */
+    color: white;
+    transition: 0.3s;
 }
 /* ======= Footer ======= */
 footer {
