@@ -96,7 +96,7 @@ font-size: 0.95rem;
 }
 /* Media Queries
 
-/*Small screens (phone)*/
+/* Media Queries Small screens (phone)*/
 @media (max-width: 768px) {
     body{
         background-color:#fff8f8;
