@@ -103,7 +103,7 @@ font-size: 0.9rem;
 @media (max-width: 768px) {
     body{
         background-color:#fff8f8;
-        font: size 0.95rem;
+        font-size: 0.95rem;
         padding: 10px;
     }
     .navbar {
