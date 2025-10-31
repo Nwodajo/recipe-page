@@ -82,6 +82,11 @@ a:hover {
     background-color: #ffa500;/* orange */
     color: white;
     transition: 0.3s;
+ 
+}
+
+button { 
+    box-shadow: 2px 2px 2px lightgray;
 }
 /* ======= Footer ======= */
 footer {
@@ -89,3 +94,116 @@ background-color: #f8f9fa;
 color: #555;
 font-size: 0.95rem;
 }
+/* Media Queries
+
+/*Small screens (phone)*/
+@media (max-width: 768px) {
+    body{
+        background-color:#fff8f8;
+        font: size 0.95rem;
+        padding: 10px;
+    }
+    .navbar {
+        background-color: #b91c1c;
+    }
+    .navbar-brand {
+font-size: 1.2rem;
+color: #fff !important;
+ }
+.image img {
+    width: 100%;
+    border-radius: 6px;
+}
+   .description {
+    font-size: 1rem;
+    text-align: left;
+   } 
+   .list-group-item {
+    font-size: 0.9rem;
+   }
+   .external-links a{
+    color: #b91c1c;
+    font-weight:500 ;
+    text-decoration: none;
+    transition: color 0.3s ease;
+   }
+.external-links a:hover{
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #b91c1c;
+    content: white;
+}
+}
+
+/* Medium screens table */
+@media (min-width: 769px_)and (max-width:1200px) {
+    body {
+        background-color: #fefded;
+        font-size: 1rem;
+    }
+    .navbar {
+        background-color: #ffcccc;
+
+    }
+    .image img {
+        width: 80%;
+    }
+    footer {
+        font-size: 1rem;
+    }
+}
+/** Large screens (desktops)*/
+
+@media (min-width: 1201px) {
+    body{
+        background-color: #f9f6f6;
+
+    }
+    .container {
+        max-width: 1100px;
+        margin:auto
+    }
+    footer {
+        background-color: #f8f9fa;
+    }
+}
+/***** Back to Top Button */
+#backToTopBtn {
+    display: none;
+    position:fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: #b91c1c;/* Etiopian red theme*/
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0,2);
+    transition: all 0.3s ease;
+
+}
+#backTopBtn:hover{
+    background-color: #ffb347;
+    transform: scale(1.1);
+}
+/* Small Screen: make it smaller and simple */
+@media (max-width: 768px) {
+    #backToTopBtn{
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+        right: 15px;
+        bottom: 20px;
+    }
+    
+}
+
+

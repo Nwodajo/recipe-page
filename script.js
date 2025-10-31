@@ -21,9 +21,27 @@ items.forEach((item) => {
 });
 // Add click even to change  title color
 const colorButton = document.querySelector('#color-btn');
+
+
+
 // Select the recipe title 
 const recipeTitle = document.querySelector('#recipe-title');
 // Change the title color when button is clicked
 colorButton.addEventListener('click',()=>{
     recipeTitle.style.color ='orange';
 });
+// Back TO Button Function
+let backToTpBtn = document.getElementById('backToTopBtn');
+
+// Show button when scrolled down 200px//
+window.onscroll = function(){
+    if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+        backToTpBtn.style.display =='block';
+    } else {
+        backToTpBtn.style.display = 'none';
+}
+};
+// Scroll smoothly to top when clicked /
+backToTpBtn.addEventListener('click',function(){
+    window.screenTop({top: 0, behavior: 'smooth'});
+})
