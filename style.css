@@ -88,6 +88,9 @@ a:hover {
 button { 
     box-shadow: 2px 2px 2px lightgray;
 }
+button:hover{
+    background-color: #ffcc80;
+}
 /* ======= Footer ======= */
 footer {
 background-color: #f8f9fa;
