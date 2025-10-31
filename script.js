@@ -50,3 +50,4 @@ window.onscroll = function(){
 backToTpBtn.addEventListener('click',function(){
     window.screenTop({top: 0, behavior: 'smooth'});
 })
+//Added reminder for Dom function//
