@@ -7,4 +7,5 @@
 - Added new ingredent automatically using DOM.
 - Added click-to-strike feature for list items.
 -Added button to change the recipe title color.
+- Added smooth scroll Back-to -Top button
 

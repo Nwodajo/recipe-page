@@ -11,10 +11,10 @@ ingredientList.appendChild(li);
 
 // Add click to strike feauture
 
-const items = document.querySelectorAll('#ingredients li');
-items.forEach((item) => {
+const ingredients = document.querySelectorAll('#ingredients li');
+ingredients.forEach((item) => {
     // Toggle "checked" class when an item is clicked
-    item.addEventListener('click',() => {
+    ingredients.addEventListener('click',() => {
         item.classList.toggle('checked');
     });
 
@@ -31,7 +31,12 @@ colorButton.addEventListener('click',()=>{
     recipeTitle.style.color ='orange';
 });
 // Back TO Button Function
-let backToTpBtn = document.getElementById('backToTopBtn');
+let topButton = document.getElementById('backToTopBtn');
+topButton.addEventListener('click',() =>{
+    window.scrollTo({ top: 0, behavior: 'smooth'});
+
+});
+
 
 // Show button when scrolled down 200px//
 window.onscroll = function(){
