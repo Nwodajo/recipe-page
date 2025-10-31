@@ -1,4 +1,4 @@
-// Add a new ingredient automatically 
+// Automatically add a new ingredient
 const ingredientList = document.querySelector('#ingredients ul');
 // create a new <li> element
 const li = document.createElement('li');
@@ -13,7 +13,7 @@ ingredientList.appendChild(li);
 
 const ingredients = document.querySelectorAll('#ingredients li');
 ingredients.forEach((item) => {
-    // Toggle "checked" class when an item is clicked
+    // Toggle checked class when an item is clicked
     ingredients.addEventListener('click',() => {
         item.classList.toggle('checked');
     });
@@ -46,7 +46,7 @@ window.onscroll = function(){
         backToTpBtn.style.display = 'none';
 }
 };
-// Scroll smoothly to top when clicked /
+// Smooth scroll to top /
 backToTpBtn.addEventListener('click',function(){
     window.screenTop({top: 0, behavior: 'smooth'});
 })
