@@ -30,24 +30,25 @@ const recipeTitle = document.querySelector('#recipe-title');
 colorButton.addEventListener('click',()=>{
     recipeTitle.style.color ='orange';
 });
-// Back TO Button Function
-let topButton = document.getElementById('backToTopBtn');
-topButton.addEventListener('click',() =>{
-    window.scrollTo({ top: 0, behavior: 'smooth'});
-
-});
+// Added helpful comment for Back to Top function
+ const backToTopBtn = document.getElementById('backToTopBtn');
 
 
 // Show button when scrolled down 200px//
 window.onscroll = function(){
     if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
-        backToTpBtn.style.display =='block';
+        backToTopBtn.style.display =='block';
     } else {
-        backToTpBtn.style.display = 'none';
+        backToTopBtn.style.display = 'none';
 }
 };
-// Smooth scroll to top /
-backToTpBtn.addEventListener('click',function(){
-    window.screenTop({top: 0, behavior: 'smooth'});
-})
+// Smooth scroll to top /.addEventListener('click',function(){
+    backToTopBtn.addEventListener('click',() =>{
+        Window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+
 //Added reminder for Dom function//

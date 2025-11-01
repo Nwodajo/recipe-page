@@ -74,8 +74,8 @@ padding: 15px 25px;
 box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 .checked {
-    text-decoration: gray;
-    color: green;
+    text-decoration: line-through;
+    color: gray;
 }
 /** Adjusted marigin slightly**/
 a:hover {
