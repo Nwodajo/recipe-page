@@ -9,5 +9,9 @@
 -Added button to change the recipe title color.
 - Added smooth scroll Back-to -Top button
 
+### Future Improvements 
+- Add more Ethiopian recipes.
+- Include a "favorite"button for users.
+- Add Light/dark mode toggle.
 
 
