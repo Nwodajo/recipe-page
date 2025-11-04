@@ -1,3 +1,4 @@
+ // This Script adds interactive To Doro Wat Recipe Page
 // Automatically add a new ingredient
 const ingredientList = document.querySelector('#ingredients ul');
 // create a new <li> element
