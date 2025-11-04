@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doro Wat (Ethiopian Chicken Stew)</title>
     <!-- <! -- ADD Recipe Page Phase 2: Styling update -->
-    <!-- Google Fonts -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- Bootstrap 5.3.8 CSS -->
@@ -56,10 +56,6 @@
         <div class="row mt-4">
             <!-- Left column: image and ingredients  section-->
             <div class="col-md-6 mb-4">
-                <div class="image text-center">
-                    <img src="https://via.placeholder.com/600x400" alt="Doro Wat served with injera"
-                        class="img-fluid rounded shadow-sm">
-                </div>
                 <div class="ingredients mt-3" id="ingredients">
                     <h2>Ingredients</h2>
                     <ul class="list-group list-group-flush">
@@ -76,13 +72,13 @@
                     </ul>
                 </div>
             </div>
-        <!-------- Added comment for organization-->
+        
 
 
             <!-- Instruction section -->
 
-            <div class="col-md-6" id="steps">
-                <div class="instructions">
+            <div class="col-md-6" id="steps" aria-labelledby="instructions-heading">
+                <section class="instructions">
                     <h2>Instructions</h2>
                     <ol class="list-group list-group-numbered">
                         <li class="list-group-item">Cook onions on medium heat until golden brown.</li>
@@ -92,7 +88,7 @@
                         <li class="list-group-item">Add eggs and salt; simmer 5 more minutes.</li>
                         <li class="list-group-item">Serve hot with injera. Enjoy!</li>
                     </ol>
-                </div>
+                </section>
             </div>
         </div>
 
@@ -111,17 +107,16 @@
 
     </section>
 
-    <!-- Footer Section -->
+    <!-- Back to Top Botton -->
      <button id="backToTopBtn" title="Go to top"></button>
-
+<!-- Footer Section -->
     <footer class="text-center mt-4">
         <p>© 2025 Recipe Page Project by Nasistu Wodajo • <a href="#top">Back to top ↑</a></p>
     </footer>
     <script src="script.js" defer></script>
-
     <!-- Bootstrap 5.3.8 JS bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Back to Top Botton -->
+
     
 
 </body>
