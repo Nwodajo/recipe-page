@@ -1,3 +1,4 @@
+// Mileston progress //
 // This script adds interactivity to the Doro Wat Recipe Page
 document.addEventListener('DOMContentLoaded', () => {
 // Automatically add a new ingredient
