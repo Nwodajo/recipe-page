@@ -32,6 +32,7 @@ border-radius: 4px;
 /* ======= Recipe Section ======= */
 h1, h2 {
 color: #b91c1c; /* Deep red heading */
+letter-spacing:1px ;
 
 font-weight: 600;
 }
@@ -44,7 +45,7 @@ margin-bottom: 20px;
 .container{
     border: 2px solid #ccc;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
 
 }
 /* ======= Images ======= */
